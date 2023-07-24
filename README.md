@@ -1,7 +1,7 @@
 # Ske2Grid: Skeleton-to-Grid Representation Learning for Action Recognition
 
 
-By Dongqi Cai, Yangyuxuan Kang, Anbang Yao and Yurong Chen.
+By Dongqi Cai, Yangyuxuan Kang, [Anbang Yao](https://yaoanbang.github.io/) and Yurong Chen.
 
 This repository is an official Pytorch implementation of ["Ske2Grid: Skeleton-to-Grid Representation Learning for Action Recognition"](https://openreview.net/pdf/a0ef5a344fff97a1caaa9861ced153d1113cb84d.pdf),
 dubbed Ske2Grid. The paper is accepted to ICML 2023.
