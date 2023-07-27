@@ -18,13 +18,42 @@ Comparison of convolution operations in GCNs and in our Ske2Grid. In Ske2Grid, w
 
 
 ## Usage
-coming soon
+
+- Download **PYSKL**:
+```
+git clone https://github.com/kennymckormick/pyskl.git
+```
+- Prepare datasets following [PYSKL data format](https://github.com/kennymckormick/pyskl/blob/main/tools/data/README.md) or download [the pre-processed 2D or 3D skeletons](https://github.com/kennymckormick/pyskl/blob/main/tools/data/README.md) from PYSKL repository.
+- Merge our model and config file folders "**models**", "**utils**" and "**configs**" into the corresponding folders "**pyskl/models**", "**pyskl/utils**" and "**pyskl/configs**" respectively.
+- Replace folder "**pyskl/datasets**" with ours "**datasets**" (to avoid mismatch due to PYSKL version update).
+- Install **PYSKL** as officially instructed:
+```
+pip3 install -e .
+```
+
 
 ## Models & Results
-coming soon
+
+Coming soon
+
 
 ## Training & Testing
-coming soon
+
+Training Ske2Grid using grid patch representation of $D_{5\times 5}$:
+
+```
+bash tools/dist_train.sh configs/Ske2Grid/d5_stgcn2cn_pyskl_ntu60_xsub_hrnet/j.py 4 --validate
+```
+
+Progressively training Ske2Grid of $D_{6\times 6}$ from previous trained Ske2Grid model of $D_{5\times 5}$:
+```
+bash tools/dist_train.sh configs/Ske2Grid/d5tod6_stgcn2cn_pyskl_ntu60_xsub_hrnet/j.py 4 --validate  --cfg-options load_from='work_dirs/ske2grid/d5_stgcn2cn_pyskl_ntu60_xsub_hrnet/j/best_top1_acc_epoch_*.pth'
+```
+
+Evaluating Ske2Grid of grid patch $D_{5\times 5}$:
+```
+bash tools/dist_test.sh configs/Ske2Grid/d5_stgcn2cn_pyskl_ntu60_xsub_hrnet/j.py work_dirs/ske2grid/d5_stgcn2cn_pyskl_ntu60_xsub_hrnet/j/best_top1_acc_epoch_*.pth 4 --out results_d5.pkl --eval top_k_accuracy mean_class_accuracy
+```
 
 ## Citation
 If you find our work useful in your research, please consider citing:
