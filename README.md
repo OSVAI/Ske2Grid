@@ -36,7 +36,7 @@ pip3 install -e .
 
 Results comparison on the NTU-60 XSub validation set.
 
-|  Method  |  Grid Patch Size | Config  |  Top-1 Acc(%) |  Baidu Netdisk  |Log  |
+|  Method  |  Grid Patch Size | Config  |  Top-1 Acc(%) |  Model  |Log  |
 |:---------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 | ST-GCN | -- | [config](https://pan.baidu.com/s/10UInYDKYUixfehrOPs3xaQ?pwd=8702) | 85.15  | [model](https://pan.baidu.com/s/1qyPg2plsUwaWOlxXuN69bg?pwd=8702)| [log](https://pan.baidu.com/s/1C4i3XRl8uBul76yifcCGVw?pwd=8702) |
 | Ske2Grid | 5x5| [config](https://pan.baidu.com/s/19crYKvMmacs8DozrS8uoFg?pwd=8702) | 86.20 | [model](https://pan.baidu.com/s/1T1E3zUivegVoy1Dr4Rdwig?pwd=8702)| [log](https://pan.baidu.com/s/1ZvCa1Q3nl_fHo77_I_eUUw?pwd=8702) |
