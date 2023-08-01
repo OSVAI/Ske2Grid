@@ -38,7 +38,7 @@ Results comparison on the NTU-60 XSub validation set.
 
 |  Method  |  Grid Patch Size | Config  |  Top-1 Acc(%) |  Baidu Netdisk  |Log  |
 |:---------- |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| ST-GCN | -- | [config](https://pan.baidu.com/s/10UInYDKYUixfehrOPs3xaQ?pwd=8702) | 85.15  [model](https://pan.baidu.com/s/1qyPg2plsUwaWOlxXuN69bg?pwd=8702)| [log](https://pan.baidu.com/s/1C4i3XRl8uBul76yifcCGVw?pwd=8702) |
+| ST-GCN | -- | [config](https://pan.baidu.com/s/10UInYDKYUixfehrOPs3xaQ?pwd=8702) | 85.15  | [model](https://pan.baidu.com/s/1qyPg2plsUwaWOlxXuN69bg?pwd=8702)| [log](https://pan.baidu.com/s/1C4i3XRl8uBul76yifcCGVw?pwd=8702) |
 | Ske2Grid | 5x5| [config](https://pan.baidu.com/s/19crYKvMmacs8DozrS8uoFg?pwd=8702) | 86.20 | [model](https://pan.baidu.com/s/1T1E3zUivegVoy1Dr4Rdwig?pwd=8702)| [log](https://pan.baidu.com/s/1ZvCa1Q3nl_fHo77_I_eUUw?pwd=8702) |
 | Ske2Grid | 6x6| [config](https://pan.baidu.com/s/1bevsfn0HU_IWkOnIVbCNMg?pwd=8702) | 87.87 | [model](https://pan.baidu.com/s/1MziYj5OOP5ErSs3X5X5VgA?pwd=8702)| [log](https://pan.baidu.com/s/1OPQKaFQbjRejWAN9qKvUKQ?pwd=8702) |
 | Ske2Grid | 7x7| [config](https://pan.baidu.com/s/1unCcmFfianhlHVzNsPIwEg?pwd=8702) | 88.26 | [model](https://pan.baidu.com/s/1PG2PuVee2Y3DjHlDPyAhSg?pwd=8702)| [log](https://pan.baidu.com/s/1m6XZVHxieqIkLEclHM2cBA?pwd=8702) |
