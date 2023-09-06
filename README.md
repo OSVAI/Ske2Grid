@@ -76,7 +76,7 @@ If you find our work useful in your research, please consider citing:
 ```
 
 ## License
-Ske2Grid is released under the MIT license. We encourage use for both research and commercial purposes, as long as proper attribution is given.
+Ske2Grid is released under the Apache license. We encourage use for both research and commercial purposes, as long as proper attribution is given.
 
 ## Acknowledgement
 This repository is built based on [PYSKL](https://github.com/kennymckormick/pyskl/tree/main) repository. We thank the authors for releasing their amazing codes.
